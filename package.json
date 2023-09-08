@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test1": "npx vitest run -t 'Ensure there is only one active branch'",
+    "test1": "npx vitest run -t 'file1.txt has correct contents'",
     "test2": "npx vitest run -t 'Pull Requests 1 and 2 are closed'",
     "test3": "npx vitest run -t 'Check for commits into main from merged pull requests'",
     "test4": "npx vitest run -t 'Ensure there is only one active branch'"
